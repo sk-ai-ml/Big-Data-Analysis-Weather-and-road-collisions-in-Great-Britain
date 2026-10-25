@@ -1,0 +1,8 @@
+# Streamlit dashboard: weather and road collisions in Great Britain, 2025
+# Install with:  pip install -r requirements.txt
+# Run with:      streamlit run app.py
+
+streamlit>=1.30
+pandas>=2.0
+numpy>=1.24
+plotly>=5.18

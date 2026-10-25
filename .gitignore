@@ -1,0 +1,17 @@
+# Publish only what the dashboard needs; everything else stays local.
+/*
+!/.gitignore
+!/README.md
+
+!/dashboard/
+/dashboard/*
+!/dashboard/app.py
+!/dashboard/requirements.txt
+!/dashboard/exposure_counts.npz
+
+!/data/
+/data/*
+!/data/merged/
+/data/merged/*
+!/data/merged/collisions_weather_2025.csv
+!/data/merged/daily_gb_weather_collisions_2025.csv
